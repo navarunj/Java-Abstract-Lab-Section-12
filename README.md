@@ -213,3 +213,29 @@ s3, 1);
 System.out.println("The total bill for: " + birdEradication + " is "
 + birdEradication.computeTotal());
 ```
+
+## 5.3 Save the file, and make sure there are no compiler errors in your code. Run TestOrders, and make sure that an Order associated with a Service works the same as an Order associated with a Good.
+
+```java
+Attempting to set the quantity to a value less than or equal to
+zero
+10 ea. Acme Anvil-1668 that is 0.0225 CUBIC_METER in size for
+Wile E Coyote
+125 ea. Acme Balloon-1401 that is 375.0 CUBIC_FEET in size for
+Bugs Bunny
+The tax Rate is currently: 0.05
+The tax for 3000.0 is: 150.0
+The tax for this order is: 100.0
+The tax for this order is: 50.0
+The tax Rate is currently: 0.06
+The tax for 3000.0 is: 180.0
+The tax for this order is: 120.0
+The tax for this order is: 60.0
+The total bill for: 10 ea. Acme Anvil-1668 that is 0.0225
+CUBIC_METER in size for Wile E Coyote is 2000.0
+The tax for this order is: 60.0
+```
+
+Because both Service and Good objects share the same interface, they can
+be used interchangeably (to some extent) with Orders. This is
+polymorphism through interfaces!
