@@ -44,4 +44,4 @@ import com.acme.domain.Good;
 1.4.3 You should get a compiler error that prevents an instance of Good from
 being created.
 
-<img src="./src/main/resources/compilerErrorGood.png" width="400px">
+<img src="./src/main/resources/compilerErrorGood.PNG" width="400px">
